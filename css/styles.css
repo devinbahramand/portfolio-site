@@ -1,0 +1,42 @@
+/* Global Styles */
+body {
+  background-image: url('../img/space.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+/* Title Styles */
+#title {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.title-txt {
+  color: white;
+}
+/* About Styles */
+#about {
+  background-color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.about-txt {
+  color: white;
+}
+/* Progamming Styles*/
+#programming {
+  background-color: green;
+}
+.programming-project {
+  height: 300px;
+}
+/* Videos Styles */
+#videos {
+  background-color: green;
+}
+.video-project {
+height: 300px;
+}
+/* Contact Styles */
+#contact {
+background-color: green;
+}
