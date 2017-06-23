@@ -7,6 +7,7 @@
   <title>Devin's Portfolio</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Bahiana|Frijole" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -22,15 +23,15 @@
   <!-- About Me Begins -->
   <div class="container" id="about">
     <div class="row">
-      <div class="col-sm-4">
-        <h1>Test</h1>
+      <div class="col-sm-4 text-center">
+        <h1 class="h1">Programming</h1>
         <p class="about-txt text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste architecto excepturi. Magni ab nobis a nam nemo eligendi suscipit. Numquam quibusdam illo reiciendis accusantium voluptas corporis rem placeat qui.</p>
       </div>
       <div class="col-sm-4">
         <img class="center-block img-responsive title-img" src="img/about-img.jpg" alt="picture of Devin">
       </div>
-      <div class="col-sm-4">
-        <h1>Test</h1>
+      <div class="col-sm-4 text-center">
+        <h1 class="h1">Video Editing</h1>
         <p class="about-txt text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iste architecto excepturi. Magni ab nobis a nam nemo eligendi suscipit. Numquam quibusdam illo reiciendis accusantium voluptas corporis rem placeat qui.</p>
       </div>
     </div>
@@ -39,13 +40,15 @@
   <div class="container-fluid space"></div>
   <!-- Programming Projects Begins -->
   <div class="container" id="programming">
-    <h1 class="text-center">Programming Projects</h1>
+    <h1 class="text-center h1">Programming Projects</h1>
     <div class="row margin-top-20 margin-bottom-20">
       <div class="col-sm-6">
-        <a href="https://geekwiseb2.github.io/restaurante-june-17-devinbahramand/" target="_blank"><img class="programming-project center-block img-responsive border" src="img/food.png" alt="food"></a>
+        <div class="program-icon">
+          <a class="img-link" href="https://geekwiseb2.github.io/restaurante-june-17-devinbahramand/" target="_blank"><img class="programming-project padding-left img-responsive border" src="img/food.png" alt="food"></a>
+        </div>
       </div>
       <div class="col-sm-6">
-        <a href="https://geekwiseb2.github.io/petstore-2-devinbahramand/" target="_blank"><img class="programming-project center-block img-responsive border2" src="img/pet.png" alt="placeholder"></a>
+        <a href="https://geekwiseb2.github.io/petstore-2-devinbahramand/" target="_blank"><img class="programming-project img-responsive border2" src="img/pet.png" alt="placeholder"></a>
       </div>
     </div>
   </div>
@@ -53,13 +56,13 @@
   <div class="container-fluid space"></div>
   <!-- Video Projects Begins -->
   <div class="container" id="videos">
-    <h1 class="text-center vid-txt">Video Projects</h1>
+    <h1 class="text-center vid-txt h1">Video Projects</h1>
     <div class="row margin-top-20">
       <div class="col-sm-5">
-        <a href="https://vimeo.com/122142733" target="_blank"><img class="video-project center-block img-responsive" src="img/music.png" alt="placeholder"></a>
+        <a href="https://vimeo.com/122142733" target="_blank"><img class="video-project img-responsive" src="img/music.png" alt="placeholder"></a>
       </div>
       <div class="col-sm-7">
-        <a href="https://vimeo.com/116674267" target="_blank"><img class="video-project center-block img-responsive" src="img/hunter.png" alt="placeholder"></a>
+        <a href="https://vimeo.com/116674267" target="_blank"><img class="video-project img-responsive" src="img/hunter.png" alt="placeholder"></a>
       </div>
     </div>
     <div class="row">
@@ -74,15 +77,21 @@
   <div class="container" id="contact">
     <div class="row">
       <div class="col-sm-12 text-center">
-        <h1>Contact Me!</h1>
+        <h1 class="h1">Contact Me!</h1>
         <ul class="list">
-          <li>devinbahramand98@yahoo.com</li>
-          <li>Or</li>
-          <li>(559) 907-2009</li>
-          <li>
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            <i class="fa fa-vimeo" aria-hidden="true"></i>
-            <i class="fa fa-github" aria-hidden="true"></i>
+          <li class="contact-txt"><a href="mailto:devinbahramand98@yahoo.com">devinbahramand98@yahoo.com</a></li>
+          <li class="contact-txt">Or</li>
+          <li class="contact-txt">(559) 907-2009</li>
+          <li class="white">
+            <a href="https://www.facebook.com/devin.bahramand">
+              <i class="fa fa-facebook icon-size" aria-hidden="true"></i>
+            </a>
+            <a href="https://vimeo.com/userdevinb2016">
+              <i class="fa fa-vimeo icon-size" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/devinbahramand">
+              <i class="fa fa-github icon-size" aria-hidden="true"></i>
+            </a>
           </li>
         </ul>
       </div>

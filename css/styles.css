@@ -14,19 +14,56 @@ body {
 .margin-bottom-20 {
   margin-bottom: 20px;
 }
+.padding-left {
+  margin-left: 100px;
+}
 .border {
   border-radius: 100%;
 }
 .border2 {
   border-radius: 50%;
 }
+.h1 {
+  color: white;
+  font-family: 'Frijole', cursive;
+}
+.white {
+  color: white;
+}
+.img-link {
+  margin: 0;
+}
+
 /* Title Styles */
 #title {
-  padding-top: 165px;
-  padding-bottom: 165px;
+  padding-top: 145px;
+  padding-bottom: 145px;
 }
 .title-txt {
   color: white;
+  font-family: 'Frijole', cursive;
+  font-size: 75px;
+  animation: slideDown 1s;
+}
+@keyframes slideDown {
+	0% {
+		transform: translateY(-200%);
+	}
+	50%{
+		transform: translateY(8%);
+	}
+	65%{
+		transform: translateY(-4%);
+	}
+	80%{
+		transform: translateY(4%);
+	}
+	95%{
+		transform: translateY(-2%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
 }
 .title-img {
   border-radius: 100%;
@@ -53,28 +90,66 @@ body {
   background-color: rgba(0, 0, 0, .45);
   padding-top: 25px;
   padding-bottom: 25px;
+  animation: show 2s
+}
+@keyframes show {
+  0% { opacity: 0; }
+    80% { opacity: 0; }
+    100% { opacity: 1; }
 }
 .about-txt {
   color: white;
+  font-family: 'Bahiana', cursive;
+  font-size: 20px;
 }
 /* Progamming Styles*/
 #programming {
   background-color: rgba(0, 0, 0, .45);
+  animation: show 2s
 }
 .programming-project {
   height: 300px;
+  position: relative;
+}
+.program-icon {
+  height: 50px;
+}
+.programming-project:hover {
+  animation: expand .5s ease-in-out infinite alternate;
+}
+@keyframes expand {
+  0% {
+    transform: scale(1.0);
+  }
+  100% {
+    transform: scale(1.1);
+  }
 }
 /* Videos Styles */
 #videos {
   background-color: rgba(0, 0, 0, .45);
+  animation: show 2s
 }
 .video-project {
 height: 300px;
+padding-left: 70px;
+}
+.video-project:hover {
+  animation: expand .5s ease-in-out infinite alternate;
 }
 /* Contact Styles */
 #contact {
 background-color: rgba(0, 0, 0, .45);
+animation: show 2s
 }
 .list {
   list-style: none;
+}
+.contact-txt {
+  color: white;
+  font-family: 'Bahiana', cursive;
+  font-size: 20px;
+}
+.icon-size {
+  font-size: 24px;
 }
